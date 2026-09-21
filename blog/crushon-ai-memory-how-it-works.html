@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How CrushOn AI Memory Works (8K, 16K, 24K Explained)</title>
+<meta name="description" content="How CrushOn AI memory works: what 8K, 16K and 24K mean in practice, why characters forget, and how to keep plots coherent.">
+<meta name="rating" content="adult">
+<link rel="canonical" href="https://crushonai.website/blog/crushon-ai-memory-how-it-works.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How CrushOn AI Memory Works (8K, 16K, 24K)">
+<meta property="og:description" content="Why characters forget, what each tier actually holds, and how to keep long plots coherent.">
+<meta property="og:url" content="https://crushonai.website/blog/crushon-ai-memory-how-it-works.html">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@graph":[
+  {"@type":"Article","headline":"How CrushOn AI Memory Works (8K, 16K, 24K Explained)","datePublished":"2026-09-12","dateModified":"2026-09-20","author":{"@type":"Organization","name":"crushonai.website"},"publisher":{"@type":"Organization","name":"crushonai.website"}},
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://crushonai.website/"},
+    {"@type":"ListItem","position":2,"name":"Blog","item":"https://crushonai.website/blog.html"},
+    {"@type":"ListItem","position":3,"name":"Memory","item":"https://crushonai.website/blog/crushon-ai-memory-how-it-works.html"}]},
+  {"@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"How much memory does CrushOn AI have?","acceptedAnswer":{"@type":"Answer","text":"Free models run at 8K context, Standard offers 16K, and the Ultra tier reaches up to 24K working memory, enough for a character to recall details from more than 100 messages back."}},
+    {"@type":"Question","name":"Why does my CrushOn AI character forget things?","acceptedAnswer":{"@type":"Answer","text":"Either the conversation has exceeded the context window, so early details are dropped, or you are on the free tier where chat history is cleared after seven days of inactivity."}},
+    {"@type":"Question","name":"Does memory improve on paid plans?","acceptedAnswer":{"@type":"Answer","text":"Yes. Memory scales by tier from 8K to 24K, and paid plans also retain chat history instead of deleting it after seven days of inactivity."}}
+  ]}
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="../index.html">crushon<span>ai</span>.website</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="../review.html">Review</a><a href="../pricing.html">Pricing</a><a href="../characters.html">Characters</a>
+      <a href="../alternatives.html">Alternatives</a><a href="../vs-character-ai.html">vs Character.AI</a><a href="../blog.html">Blog</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Memory · Updated September 2026</span>
+    <h1>How CrushOn AI memory works</h1>
+    <p class="lead">CrushOn AI memory is a context window, not a database: the character can only &ldquo;see&rdquo; what fits inside it. Once you understand that, most memory complaints become predictable — and fixable. <span class="badge18">18+</span></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="prose">
+      <figure class="post-hero">
+        <img src="../assets/img/scene-memory.jpg" alt="Anime illustration of a woman writing in a journal by a rain-streaked window at night" width="1200" height="800" fetchpriority="high">
+      </figure>
+
+      <h2>What the numbers mean</h2>
+      <p>Context size is measured in tokens, and a token is roughly three-quarters of an English word. That makes the tiers concrete:</p>
+      <div class="table-wrap" style="margin:20px 0">
+        <table>
+          <thead><tr><th scope="col">Tier</th><th scope="col">Context</th><th scope="col">Roughly</th><th scope="col">What it means</th></tr></thead>
+          <tbody>
+            <tr><td>Free models</td><td>8K</td><td>~6,000 words</td><td>Fine for one sitting; early setup drops by the next session</td></tr>
+            <tr><td>Standard</td><td>16K</td><td>~12,000 words</td><td>A multi-session storyline survives with recaps</td></tr>
+            <tr><td>Ultra</td><td>Up to 24K</td><td>~18,000 words</td><td>Details from 100+ messages back still land weeks later</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Everything in that window competes for space: your messages, the character&rsquo;s replies, the character card itself and the system prompt. Long replies eat the budget faster than you expect.</p>
+
+      <h2>Why characters forget — the three causes</h2>
+      <ol>
+        <li><strong>Context overflow.</strong> The most common cause. Once the window fills, the oldest content is dropped. The character is not choosing to forget; the text is simply no longer visible to it.</li>
+        <li><strong>Free-tier history expiry.</strong> Seven days of inactivity and the conversation is deleted outright. This is not a memory problem at all — the chat is gone.</li>
+        <li><strong>Compression drift.</strong> Older content gets summarised rather than kept verbatim, so a specific detail can survive in general form but lose precision (&ldquo;they argued about something&rdquo; rather than what).</li>
+      </ol>
+
+      <h2>Five habits that keep long plots coherent</h2>
+      <ol>
+        <li><strong>Recap deliberately.</strong> Every 40–60 messages, have the character summarise the current state of the story in its own words. That refreshes key facts into recent context.</li>
+        <li><strong>Put durable facts in the card.</strong> Names, relationships and standing arrangements belong in the character definition, which is always loaded — not only in chat.</li>
+        <li><strong>Keep replies shorter.</strong> Longer AI replies consume the window faster. Adjustable reply length on higher tiers helps here.</li>
+        <li><strong>Keep sessions under ~100 messages.</strong> Consistency measurably degrades past that regardless of tier.</li>
+        <li><strong>Upgrade when you hit the wall.</strong> If you are writing multi-week storylines, 16K or 24K is the actual fix — no amount of prompting beats a bigger window.</li>
+      </ol>
+
+      <div class="callout"><p><strong>The honest caveat:</strong> CrushOn AI memory is good within a thread and adequate across sessions, but it is not the category leader. If deep cross-session recall is the single thing you care about, <a href="../blog/crushon-ai-vs-nomi-ai.html">Nomi AI</a> does it better.</p></div>
+
+      <h2>FAQ</h2>
+      <div class="faq">
+        <details open><summary>How much memory does CrushOn AI have?</summary><div class="body"><p>8K on free models, 16K on Standard, up to 24K on Ultra — roughly 6,000 to 18,000 words of working context.</p></div></details>
+        <details><summary>Why does my character forget things?</summary><div class="body"><p>Usually context overflow, or free-tier history deletion after seven days of inactivity.</p></div></details>
+        <details><summary>Does memory improve on paid plans?</summary><div class="body"><p>Yes — larger context plus retained history. History retention alone is the main reason many people upgrade.</p></div></details>
+        <details><summary>Can I see how much context is left?</summary><div class="body"><p>Not precisely. Treat the 100-message guideline as your practical signal that a recap is due.</p></div></details>
+        <details><summary>Does switching models reset memory?</summary><div class="body"><p>No. Conversation history is preserved when you switch models mid-chat.</p></div></details>
+      </div>
+
+      <p class="dim">Related: <a href="../blog/crushon-ai-models-explained.html">models explained</a> · <a href="../pricing.html">pricing and tiers</a> · <a href="../blog/how-to-create-character-crushon-ai.html">creating characters</a> · <a href="../review.html">CrushOn AI review</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <h2>Hitting the memory wall?</h2>
+    <p>Standard adds 16K context and persistent history for $5.99/month — usually the cheapest real fix.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="../pricing.html">Compare plans</a>
+      <a class="btn btn-ghost" href="https://www.gptgirlfriend.online/?ref=mzu2y2q" rel="nofollow sponsored noopener" target="_blank">Try CrushOn AI</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><h4>crushonai.website</h4><p class="muted" style="font-size:.9rem">An independent guide to CrushOn AI. Not affiliated with the platform.</p></div>
+      <div><h4>Reviews</h4><ul><li><a href="../review.html">CrushOn AI review</a></li><li><a href="../pricing.html">Pricing</a></li><li><a href="../alternatives.html">Alternatives</a></li><li><a href="../vs-character-ai.html">vs Character.AI</a></li></ul></div>
+      <div><h4>Guides</h4><ul><li><a href="../characters.html">Character library</a></li><li><a href="../blog.html">Blog</a></li><li><a href="../blog/how-to-create-character-crushon-ai.html">Create a character</a></li><li><a href="../blog/crushon-ai-models-explained.html">Models explained</a></li></ul></div>
+      <div><h4>Site</h4><ul><li><a href="../about.html">About</a></li><li><a href="../editorial-policy.html">Editorial policy</a></li><li><a href="../privacy.html">Privacy</a></li><li><a href="../terms.html">Terms</a></li><li><a href="../18-plus.html">18+ policy</a></li><li><a href="../sitemap.html">Sitemap</a></li></ul></div>
+    </div>
+    <div class="foot-bottom"><p>&copy; 2026 crushonai.website. 18+ adults only.</p></div>
+  </div>
+</footer>
+</body>
+</html>
