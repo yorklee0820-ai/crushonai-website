@@ -208,6 +208,14 @@ details .body p:last-child{margin-bottom:0}
 }
 .callout p:last-child{margin-bottom:0}
 
+/* ---------- article brand illustrations ---------- */
+.tool-figure{
+  margin:24px 0 28px;overflow:hidden;background:var(--card);
+  border:1px solid var(--line);border-radius:var(--radius);
+}
+.tool-figure img{display:block;width:100%;height:auto;aspect-ratio:16/9}
+.tool-figure figcaption{padding:10px 16px;color:var(--muted);font-size:.78rem;letter-spacing:.03em;text-align:center}
+
 /* ---------- meta strip ---------- */
 .metastrip{display:flex;gap:22px;flex-wrap:wrap;font-size:.88rem;color:var(--dim);justify-content:center;margin-top:18px}
 
