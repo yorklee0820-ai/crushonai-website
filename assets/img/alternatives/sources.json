@@ -1,99 +1,119 @@
 {
-  "purpose": "Editorial identification in alternatives.html; third-party marks belong to their respective owners. No endorsement is implied.",
+  "purpose": "Original AI-generated editorial illustrations for alternatives.html, informed by public brand references. These are not product screenshots, official promotional artwork, or endorsements. Brand names and marks belong to their owners.",
+  "generated": "2026-09-30",
+  "method": "OpenAI built-in image generation; separate prompt for each brand; then mechanical size and WebP optimization only.",
   "assets": [
     {
       "brand": "character-ai",
-      "source_page": "https://apps.apple.com/us/app/character-ai-chat-talk-text/id1671705818",
-      "asset_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/f2/f0/25f2f05f-32d0-4789-6ff1-698f5294d004/Placeholder.mill/400x400bb-75.webp",
-      "width": 400,
-      "height": 400,
-      "bytes": 9328,
+      "file": "character-ai-landscape.webp",
+      "width": 1200,
+      "height": 675,
       "format": "WEBP",
-      "source_kind": "Publisher App Store icon",
-      "retrieved": "2026-09-30",
-      "file": "character-ai.webp",
-      "treatment": "Original optimized WebP from the official source, copied without alteration; no hotlinking.",
-      "sha256": "77b5aa25f019b1ae1be98f938b054652178d3d6f6671ea408879127d48bee61d"
+      "bytes": 41714,
+      "sha256": "3df57546d5dcb63d61914735235390145dd6754c7d1c6ec3649925c07fc34422",
+      "illustration_kind": "AI-generated editorial illustration",
+      "reference": {
+        "source_page": "https://apps.apple.com/us/app/character-ai-chat-talk-text/id1671705818",
+        "source_kind": "Publisher App Store icon",
+        "asset_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/f2/f0/25f2f05f-32d0-4789-6ff1-698f5294d004/Placeholder.mill/400x400bb-75.webp"
+      },
+      "treatment": "Original landscape composition with prominent full brand name. Reference informs identity and colors; image is not represented as an unaltered official asset."
     },
     {
       "brand": "janitor-ai",
-      "source_page": "https://apps.apple.com/us/app/janitor-interactive-stories/id6692609366",
-      "asset_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/65/b7/ff65b7d7-2e5a-41c9-ae57-94185759c6d2/Placeholder.mill/400x400bb-75.webp",
-      "width": 400,
-      "height": 400,
-      "bytes": 14004,
+      "file": "janitor-ai-landscape.webp",
+      "width": 1200,
+      "height": 675,
       "format": "WEBP",
-      "source_kind": "Publisher App Store icon",
-      "retrieved": "2026-09-30",
-      "file": "janitor-ai.webp",
-      "treatment": "Original optimized WebP from the official source, copied without alteration; no hotlinking.",
-      "sha256": "c233cd37401439416e74c3176252800e77eba92fb3c336fb89efcc800fe11d09"
-    },
-    {
-      "brand": "nomi-ai",
-      "source_page": "https://apps.apple.com/us/app/nomi-ai-companion-with-a-soul/id6450270929",
-      "asset_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/14/d9/8714d9dc-29c4-0f75-014d-b7a458e4c89b/Placeholder.mill/400x400bb-75.webp",
-      "width": 400,
-      "height": 400,
-      "bytes": 8376,
-      "format": "WEBP",
-      "source_kind": "Publisher App Store icon",
-      "retrieved": "2026-09-30",
-      "file": "nomi-ai.webp",
-      "treatment": "Original optimized WebP from the official source, copied without alteration; no hotlinking.",
-      "sha256": "9f97aae0045c68f461e1d5c6c9f2e92a527edc00445c5fbaab4c3cb6bf3f9852"
-    },
-    {
-      "brand": "kindroid",
-      "source_page": "https://apps.apple.com/us/app/kindroid-your-personal-ai/id6451038161",
-      "asset_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/56/f4/cd56f4e3-d8b1-1bf6-a50f-6f6871d065ec/Placeholder.mill/400x400bb-75.webp",
-      "width": 400,
-      "height": 400,
-      "bytes": 13280,
-      "format": "WEBP",
-      "source_kind": "Publisher App Store icon",
-      "retrieved": "2026-09-30",
-      "file": "kindroid.webp",
-      "treatment": "Original optimized WebP from the official source, copied without alteration; no hotlinking.",
-      "sha256": "f1032426ed715683ad988cf4eb87e9240600d24d251b5a0aa0c8d59087dcad6d"
-    },
-    {
-      "brand": "nectar-ai",
-      "source_page": "https://nectar.ai/faq",
-      "asset_url": "https://nectar.ai/assets/heart_logo.webp",
-      "width": 188,
-      "height": 188,
-      "bytes": 2342,
-      "format": "WEBP",
-      "source_kind": "Official website logo",
-      "retrieved": "2026-09-30",
-      "file": "nectar-ai.webp",
-      "treatment": "Original optimized WebP from the official source, copied without alteration; no hotlinking.",
-      "sha256": "958921a9c3ee82ec9f07ca8d3eab979127edb38a1b3c47effd2da7f173f21c6a"
+      "bytes": 69110,
+      "sha256": "d16ba6e75d646d89e7614946cdb38ff74144937ec25f2697a634c72dc338c6f4",
+      "illustration_kind": "AI-generated editorial illustration",
+      "reference": {
+        "source_page": "https://apps.apple.com/us/app/janitor-interactive-stories/id6692609366",
+        "source_kind": "Publisher App Store icon",
+        "asset_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/65/b7/ff65b7d7-2e5a-41c9-ae57-94185759c6d2/Placeholder.mill/400x400bb-75.webp"
+      },
+      "treatment": "Original landscape composition with prominent full brand name. Reference informs identity and colors; image is not represented as an unaltered official asset."
     },
     {
       "brand": "candy-ai",
-      "file": "candy-ai-editorial.svg",
-      "source_kind": "Original repository-native editorial diagram",
-      "source_page": null,
-      "asset_url": null,
-      "created": "2026-09-30",
-      "width": 560,
-      "height": 220,
-      "treatment": "Original SVG feature diagram; not an official logo or product screenshot. Visible caption and alternative text identify it as an editorial illustration.",
-      "sha256": "e40fc6b2c21ef447d83b829307512f4d19916c3bc844f58ebcf6f4da17c486f5"
+      "file": "candy-ai-landscape.webp",
+      "width": 1200,
+      "height": 675,
+      "format": "WEBP",
+      "bytes": 38642,
+      "sha256": "bc926110ec5862f070637944a9ddb6c89c01b67a9141cccf269065b59fa6d713",
+      "illustration_kind": "AI-generated editorial illustration",
+      "reference": {
+        "source_page": "https://www.cbinsights.com/company/candyai",
+        "source_kind": "Third-party wordmark reference found and visually inspected through Google Images",
+        "asset_url": "https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/original/5878b616-3186-4d4e-b2e6-63f118169f4b.png"
+      },
+      "treatment": "Original landscape composition with prominent full brand name. Reference informs identity and colors; image is not represented as an unaltered official asset."
+    },
+    {
+      "brand": "nomi-ai",
+      "file": "nomi-ai-landscape.webp",
+      "width": 1200,
+      "height": 675,
+      "format": "WEBP",
+      "bytes": 40662,
+      "sha256": "7e8d61b5eeb4b6771a533331143c22c0f72eb6a5e31ea306b6801c610da55956",
+      "illustration_kind": "AI-generated editorial illustration",
+      "reference": {
+        "source_page": "https://apps.apple.com/us/app/nomi-ai-companion-with-a-soul/id6450270929",
+        "source_kind": "Publisher App Store icon",
+        "asset_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/14/d9/8714d9dc-29c4-0f75-014d-b7a458e4c89b/Placeholder.mill/400x400bb-75.webp"
+      },
+      "treatment": "Original landscape composition with prominent full brand name. Reference informs identity and colors; image is not represented as an unaltered official asset."
+    },
+    {
+      "brand": "kindroid",
+      "file": "kindroid-landscape.webp",
+      "width": 1200,
+      "height": 675,
+      "format": "WEBP",
+      "bytes": 45292,
+      "sha256": "6259bc28cf3bbd88229db21cfc84c98360e545fa0ae0a35d9bd24a7a19dcb75d",
+      "illustration_kind": "AI-generated editorial illustration",
+      "reference": {
+        "source_page": "https://play.google.com/store/apps/dev?id=8268215859556130436&hl=en_SG",
+        "source_kind": "Official Google Play developer wordmark reference",
+        "asset_url": "https://play-lh.googleusercontent.com/eeEy42aSoBgCozPfCF2CjKFXs334U-k4Mij6ektXAcR60TNRKbh7raqcU7aCHJ3Jw-yJ"
+      },
+      "treatment": "Original landscape composition with prominent full brand name. Reference informs identity and colors; image is not represented as an unaltered official asset."
+    },
+    {
+      "brand": "nectar-ai",
+      "file": "nectar-ai-landscape.webp",
+      "width": 1200,
+      "height": 675,
+      "format": "WEBP",
+      "bytes": 57708,
+      "sha256": "b0134500ea1aaf101ae0191db73fdfe4cbf3370c5276fffd348238f78b692391",
+      "illustration_kind": "AI-generated editorial illustration",
+      "reference": {
+        "source_page": "https://nectar.ai/faq",
+        "source_kind": "Official website logo",
+        "asset_url": "https://nectar.ai/assets/heart_logo.webp"
+      },
+      "treatment": "Original landscape composition with prominent full brand name. Reference informs identity and colors; image is not represented as an unaltered official asset."
     },
     {
       "brand": "lovescape",
-      "file": "lovescape-editorial.svg",
-      "source_kind": "Original repository-native editorial diagram",
-      "source_page": null,
-      "asset_url": null,
-      "created": "2026-09-30",
-      "width": 560,
-      "height": 220,
-      "treatment": "Original SVG feature diagram; not an official logo or product screenshot. Visible caption and alternative text identify it as an editorial illustration.",
-      "sha256": "7f53ace77cfdc31beb9d6c799775e17be30a38e33774ea5bc4b528ed4886978d"
+      "file": "lovescape-landscape.webp",
+      "width": 1200,
+      "height": 675,
+      "format": "WEBP",
+      "bytes": 86268,
+      "sha256": "6104d5c150ab2c180a4e558b9651d9c76716a99f76cf9d90217da72963150d99",
+      "illustration_kind": "AI-generated editorial illustration",
+      "reference": {
+        "source_page": null,
+        "asset_url": null,
+        "source_kind": "No official logo used; original editorial brand-name typography. Google Images results were hidden by enforced SafeSearch."
+      },
+      "treatment": "Original landscape composition with prominent full brand name. Reference informs identity and colors; image is not represented as an unaltered official asset."
     }
   ]
 }
