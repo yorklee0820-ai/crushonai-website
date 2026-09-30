@@ -208,6 +208,17 @@ details .body p:last-child{margin-bottom:0}
 }
 .callout p:last-child{margin-bottom:0}
 
+/* ---------- article brand illustrations ---------- */
+.tool-figure{
+  margin:24px 0 28px;padding:26px 24px 18px;
+  display:grid;justify-items:center;gap:14px;
+  background:radial-gradient(ellipse at 50% 40%,rgba(168,85,247,.12),transparent 72%),var(--card);
+  border:1px solid var(--line);border-radius:var(--radius);
+}
+.tool-figure img{width:160px;height:160px;max-width:100%;object-fit:contain}
+.tool-figure-diagram img{width:100%;max-width:560px;height:160px;object-fit:contain}
+.tool-figure figcaption{color:var(--muted);font-size:.78rem;letter-spacing:.03em;text-align:center}
+
 /* ---------- meta strip ---------- */
 .metastrip{display:flex;gap:22px;flex-wrap:wrap;font-size:.88rem;color:var(--dim);justify-content:center;margin-top:18px}
 
